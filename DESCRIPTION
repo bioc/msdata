@@ -1,0 +1,13 @@
+Package: msdata 
+Version: 0.1.0
+Date: 2007-11-21
+Title: Various Mass Spectrometry raw data example files 
+Author: Steffen Neumann <sneumann@ipb-halle.de>
+Maintainer: Steffen Neumann <sneumann@ipb-halle.de>
+Suggests: xcms
+ZipData: no
+Description: Positive ionization mode data in mzData file format.
+  Subset from 500-850 m/z and 1190-1310 seconds, incl. MS2 and MS3,
+  intensity threshhold 100.000.
+biocViews: ExperimentData
+License: GPL2 (>=2)
