@@ -30,17 +30,17 @@
 }
 \examples{
 ## The directory with the mzData LC/MS files
-mzdatapath <- file.path(.find.package("msdata"), "fticr")
+mzdatapath <- file.path(.find.package("msdata"), "iontrap")
 mzdatapath
-list.files(mzdatapath, recursive = TRUE)
+files <- list.files(mzdatapath, recursive = TRUE, full.names = TRUE)
 
 if (require(xcms)) {
 
-## xcmsRaw Summary
+## xcmsSet Summary
 show(xs)
 
 ## Access raw data file
-x <- xcmsRaw(filepaths(xs)[1])
+x <- xcmsRaw(files[1])
 x
 
 }
