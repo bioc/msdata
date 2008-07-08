@@ -1,4 +1,8 @@
-2008-02-18  sneumann  <sneumann@ipb-halle.de>
+2008-07-08  Steffen Neumann  <sneumann@ipb-halle.de>
+
+	* Adapted xs to new xcmsClass structure
+
+2008-02-18  Steffen Neumann  <sneumann@ipb-halle.de>
 
 	* Added FTICR Data, reorganized Filetree
 	
