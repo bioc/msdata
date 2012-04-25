@@ -1,7 +1,9 @@
 data
 inst/fticr
 inst/iontrap
+inst/lockmass
 inst/threonine
 inst/microtofq
+
 
 

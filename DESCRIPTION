@@ -1,6 +1,6 @@
 Package: msdata 
-Version: 0.1.9
-Date: 2012-03-31
+Version: 0.1.10
+Date: 2012-04-25
 Title: Various Mass Spectrometry raw data example files 
 Author: Steffen Neumann <sneumann@ipb-halle.de>
 Maintainer: Steffen Neumann <sneumann@ipb-halle.de>
