@@ -31,7 +31,7 @@
 \examples{
 ## The directory with the mzData LC/MS files
 data(xs)
-mzdatapath <- file.path(.find.package("msdata"), "iontrap")
+mzdatapath <- file.path(find.package("msdata"), "iontrap")
 mzdatapath
 files <- list.files(mzdatapath, recursive = TRUE, full.names = TRUE)
 files
