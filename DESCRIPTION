@@ -1,6 +1,6 @@
 Package: msdata 
-Version: 0.3.0
-Date: 2013-01-16
+Version: 0.3.1
+Date: 2014-06-27
 Title: Various Mass Spectrometry raw data example files 
 Author: Steffen Neumann <sneumann@ipb-halle.de>
 Maintainer: Steffen Neumann <sneumann@ipb-halle.de>
@@ -9,6 +9,6 @@ ZipData: no
 Description: Ion Trap positive ionization mode data in mzData file format.
   Subset from 500-850 m/z and 1190-1310 seconds, incl. MS2 and MS3,
   intensity threshold 100.000. Extracts from FTICR Apex III, m/z 400-450.
-  Subset of UPLC - Bruker micrOTOFq data, both mzData and mzML.
+  Subset of UPLC - Bruker micrOTOFq data, both mzData, mzML and mz5.
 biocViews: ExperimentData, MassSpectrometryData
 License: GPL (>= 2)
