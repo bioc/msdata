@@ -1,3 +1,7 @@
+2014-10-28  Steffen Neumann <sneumann@ipb-halle.de>
+
+	* Added one netCDF file (copied from faahKO)
+
 2014-08-02  Laurent Gatto <lg390@cam.ac.uk>
 
 	* Added mzIdentML example data
