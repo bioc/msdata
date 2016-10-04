@@ -1,7 +1,5 @@
 \name{msdata}
 \alias{msdata}
-\alias{xs}
-\alias{x}
 \docType{data}
 \title{Sample FTICR, LC/MS and MS$^n$ data}
 \description{
@@ -14,37 +12,22 @@
 
 }
 
-\usage{data(xs)}
-\format{
-  The format is: \preformatted{
-  xs
-}}
 \details{
   The corresponding raw mzdata files are located in the \code{fticr} and \code{iontrap}
   subdirectory of this package.
 }
 
-\seealso{
-  \code{\link[xcms]{xcmsSet}},
-  \code{\link[xcms]{xcmsRaw}}
-}
 \examples{
 ## The directory with the mzData LC/MS files
-data(xs)
 mzdatapath <- file.path(find.package("msdata"), "iontrap")
 mzdatapath
 files <- list.files(mzdatapath, recursive = TRUE, full.names = TRUE)
 files
 
 if (require(xcms)) {
-
-## xcmsSet Summary
-show(xs)
-
 ## Access raw data file
 x <- xcmsRaw(files[1])
 x
-
 }
 }
 \keyword{datasets}
