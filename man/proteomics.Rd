@@ -52,7 +52,7 @@ proteomics(...)
       \code{PXD000001} project.
     }
 
-    \item{\code{MS3TMT10_01022016_32918-33482.mzML.gz}:}{A subset of 565
+    \item{\code{MS3TMT10_01022016_32917-33481.mzML.gz}:}{A subset of 565
       spectra from a currenly unpublished TMT 10-plex experiment run on
       an Thermo Orbitrap Lumos with synchronous precursor selection
       (SPS) MS3. Only the MS2 spectra were centroided during convertion
