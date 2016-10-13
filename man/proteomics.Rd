@@ -1,6 +1,6 @@
 \name{proteomics}
 \alias{proteomics}
-
+\alias{ident}
 
 \title{
   Proteomics data in \code{msdata}
@@ -50,6 +50,13 @@ proteomics(...)
 
       The original file is available in the ProteomeXchange
       \code{PXD000001} project.
+
+      An MS2 identification file,
+      \code{ident/TMT_Erwinia_1uLSike_Top10HCD_isol2_45stepped_60min_01-20141210.mzid},
+      generated searching the raw data against the \emph{Erwinia
+      carotovora} database (see reference above) is also available
+      through the \code{ident} function.
+
     }
 
     \item{\code{MS3TMT10_01022016_32917-33481.mzML.gz}:}{A subset of 565
