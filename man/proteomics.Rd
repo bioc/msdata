@@ -54,7 +54,7 @@ proteomics(...)
       An MS2 identification file,
       \code{ident/TMT_Erwinia_1uLSike_Top10HCD_isol2_45stepped_60min_01-20141210.mzid},
       generated searching the raw data against the \emph{Erwinia
-      carotovora} database (see reference above) is also available
+	carotovora} database (see reference above) is also available
       through the \code{ident} function.
 
     }
@@ -67,6 +67,14 @@ proteomics(...)
       (2016-1-11)) using vendor libraries.
     }
 
+    \item{MRM-standmix-5.mzML.gz}:{Sample from mouse brain acquired by
+      HILIC ESI-QqQ/MS in Dynamic multiple reaction monitoring mode
+      (MRM). HPLC system was a 1290 Infinity (Agilent Technologies)
+      coupled to ion-Funnel Triple quadrupole 6490 mass spectrometer
+      (Agilent Technologies). This file was contributed by Xavi
+      Domingo-Almenara from theThe Scripps Research Institute, San Diego,
+      CA. }
+    
   }
 }
 
@@ -88,5 +96,5 @@ proteomics(...)
 (f <- proteomics(full.names = TRUE))
 
 library(mzR)
-openMSfile(f[1])
+openMSfile(f[2])
 }
