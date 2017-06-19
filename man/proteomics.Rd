@@ -48,9 +48,12 @@ proteomics(...)
 	--filter "index [1002,1510]" -o subset
       }
 
-      The original file is available in the ProteomeXchange
-      \code{PXD000001} project.
-
+      The complete file is
+      \code{TMT_Erwinia_1uLSike_Top10HCD_isol2_45stepped_60min_01-20141210.mzML.gz},
+      also available here, and can also be downloaded from the
+      ProteomeXchange \code{PXD000001} project (see the \code{rpx}
+      package).
+      
       An MS2 identification file,
       \code{ident/TMT_Erwinia_1uLSike_Top10HCD_isol2_45stepped_60min_01-20141210.mzid},
       generated searching the raw data against the \emph{Erwinia
@@ -58,6 +61,8 @@ proteomics(...)
       through the \code{ident} function.
 
     }
+
+
 
     \item{\code{MS3TMT10_01022016_32917-33481.mzML.gz}:}{A subset of 565
       spectra from a currenly unpublished TMT 10-plex experiment run on
