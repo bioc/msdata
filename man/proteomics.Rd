@@ -116,9 +116,11 @@ proteomics(...)
 \examples{
 (f <- proteomics(full.names = TRUE))
 
-library(mzR)
+library("mzR")
 openMSfile(f[2])
 
+
+library("MSnbase")
 ## The MS3 TMT11 raw data
 (fms3 <- proteomics(full.names = TRUE, pattern = "MS3TMT11.mzML"))
 ms3 <- readMSData(fms3, mode = "onDisk")

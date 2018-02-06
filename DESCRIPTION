@@ -3,7 +3,8 @@ Version: 0.19.1
 Title: Various Mass Spectrometry raw data example files 
 Author: Steffen Neumann <sneumann@ipb-halle.de>, Laurent Gatto <lg390@cam.ac.uk>
 Maintainer: Steffen Neumann <sneumann@ipb-halle.de>, Laurent Gatto <lg390@cam.ac.uk>
-Suggests: xcms, mzR
+Depends: R (>= 2.10)
+Suggests: xcms, mzR, MSnbase
 ZipData: no
 Description: Ion Trap positive ionization mode data in mzData file
   format.  Subset from 500-850 m/z and 1190-1310 seconds, incl. MS2
