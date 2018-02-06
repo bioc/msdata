@@ -1,6 +1,7 @@
 \name{proteomics}
 \alias{proteomics}
 \alias{ident}
+\alias{fdms3tmt11}
 
 \title{
   Proteomics data in \code{msdata}
@@ -63,7 +64,6 @@ proteomics(...)
     }
 
 
-
     \item{\code{MS3TMT10_01022016_32917-33481.mzML.gz}:}{A subset of 565
       spectra from a currenly unpublished TMT 10-plex experiment run on
       an Thermo Orbitrap Lumos with synchronous precursor selection
@@ -71,6 +71,22 @@ proteomics(...)
       using \code{msconvert} (ProteoWizard release: 3.0.9283
       (2016-1-11)) using vendor libraries.
     }
+
+    
+    \item{\code{MS3TMT11.mzML}:}{A subset of 994 spectra from a currenly
+      unpublished MS3 SPS TMT 11-plex experiment converted to mzML using
+      \code{msconvert}. The file contains 30, 482 and 482 MS1, MS2 and
+      MS3 spectra, respectively. The MS1 spectra are in profile mode;
+      other MS levels are centroided. See \emph{Sensitive and Accurate
+	Quantitation of Phosphopeptides Using TMT Isobaric Labeling
+	Technique} for details about the acquisition method.
+
+      An feature data containing identification data is available with
+      \code{data(fdms3tmt11)}, which can be used to directly update the
+      feature data, as shown in the example below.
+    
+    }
+
 
     \item{MRM-standmix-5.mzML.gz}:{Sample from mouse brain acquired by
       HILIC ESI-QqQ/MS in Dynamic multiple reaction monitoring mode
@@ -102,4 +118,16 @@ proteomics(...)
 
 library(mzR)
 openMSfile(f[2])
+
+## The MS3 TMT11 raw data
+(fms3 <- proteomics(full.names = TRUE, pattern = "MS3TMT11.mzML"))
+ms3 <- readMSData(fms3, mode = "onDisk")
+ms3
+
+## Additional feature metadata
+data(fdms3tmt11)
+names(fdms3tmt11)
+
+fData(ms3) <- fdms3tmt11
+validObject(ms3)
 }
