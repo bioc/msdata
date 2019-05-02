@@ -1,5 +1,5 @@
 Package: msdata 
-Version: 0.23.0
+Version: 0.24.0
 Title: Various Mass Spectrometry raw data example files 
 Author: Steffen Neumann <sneumann@ipb-halle.de>, Laurent Gatto
         <lg390@cam.ac.uk> with contriutions from Johannes Rainer
