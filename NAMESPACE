@@ -1,1 +1,1 @@
-export(proteomics, ident)
+export(proteomics, ident, quant)

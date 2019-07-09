@@ -1,9 +1,9 @@
 Package: msdata 
-Version: 0.25.1
+Version: 0.25.2
 Title: Various Mass Spectrometry raw data example files 
 Author: Steffen Neumann <sneumann@ipb-halle.de>, Laurent Gatto
-        <lg390@cam.ac.uk> with contriutions from Johannes Rainer
-Maintainer: Steffen Neumann <sneumann@ipb-halle.de>, Laurent Gatto <lg390@cam.ac.uk>
+        <laurent.gatto@uclouvain.be> with contriutions from Johannes Rainer
+Maintainer: Steffen Neumann <sneumann@ipb-halle.de>, Laurent Gatto <laurent.gatto@uclouvain.be>
 Depends: R (>= 2.10)
 Suggests: xcms, mzR, MSnbase
 ZipData: no

@@ -1,6 +1,7 @@
 \name{proteomics}
 \alias{proteomics}
 \alias{ident}
+\alias{quant}
 \alias{fdms3tmt11}
 
 \title{
@@ -105,7 +106,7 @@ proteomics(...)
 
 
 \author{
-  Laurent Gatto <lg390@cam.ac.uk>
+  Laurent Gatto <laurent.gatto@uclouvain.be>
 }
 
 \seealso{
@@ -114,11 +115,11 @@ proteomics(...)
 }
 
 \examples{
+## raw data files
 (f <- proteomics(full.names = TRUE))
 
 library("mzR")
 openMSfile(f[2])
-
 
 library("MSnbase")
 ## The MS3 TMT11 raw data
@@ -132,4 +133,10 @@ names(fdms3tmt11)
 
 fData(ms3) <- fdms3tmt11
 validObject(ms3)
+
+## identification data file
+ident(full.names = TRUE)
+
+## quantiative data files
+quant(full.names = TRUE)
 }
