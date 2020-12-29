@@ -35,7 +35,7 @@ proteomics(...)
   \itemize{
   
     \item{\code{TMT_Erwinia_1uLSike_Top10HCD_isol2_45stepped_60min_01.mzML.gz}:}{
-      A LC-MSMS data file containing iTRAQ 4-plex data. The data is
+      A LC-MSMS data file containing TMT6 6-plex data. The data is
       described in more details in Gatto L. and Christoforou
       A. \emph{Using R and Bioconductor for proteomics data analysis}
       (PMID
