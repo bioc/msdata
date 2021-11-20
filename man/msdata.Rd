@@ -20,7 +20,7 @@
   xs
 }}
 \details{
-  The corresponding raw mzdata files are located in the \code{fticr} and \code{iontrap}
+  The corresponding raw mzML files are located in the \code{fticr-mzML} and \code{iontrap}
   subdirectory of this package.
 }
 
@@ -29,11 +29,11 @@
   \code{\link[xcms]{xcmsRaw}}
 }
 \examples{
-## The directory with the mzData LC/MS files
+## The directory with the mzML LC/MS files
 data(xs)
-mzdatapath <- file.path(find.package("msdata"), "iontrap")
-mzdatapath
-files <- list.files(mzdatapath, recursive = TRUE, full.names = TRUE)
+mzMLpath <- file.path(find.package("msdata"), "iontrap")
+mzMLpath
+files <- list.files(mzMLpath, recursive = TRUE, full.names = TRUE)
 files
 
 if (require(xcms)) {
