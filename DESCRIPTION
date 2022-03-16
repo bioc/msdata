@@ -15,3 +15,4 @@ Description: Ion Trap positive ionization mode data in mzML file
   mzIdentML example files for various search engines.  
 biocViews: ExperimentData, MassSpectrometryData
 License: GPL (>= 2)
+Encoding: UTF-8
