@@ -1,8 +1,13 @@
-proteomics <- function(...)
+proteomics <- function(...) {
+    .Deprecated("MsDataHub::MsDataHub()")
     list.files(system.file("proteomics", package = "msdata"), ...)
+}
 
-ident <- function(...)
+ident <- function(...) {
+    .Deprecated("MsDataHub::MsDataHub()")
     list.files(system.file("ident", package = "msdata"), ...)
-
-quant <- function(...)
+}
+quant <- function(...) {
+    .Deprecated("MsDataHub::MsDataHub()")
     list.files(system.file("quant", package = "msdata"), ...)
+}
