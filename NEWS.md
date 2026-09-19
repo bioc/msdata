@@ -1,3 +1,9 @@
+# msdata 0.53.1
+
+- removed sciex `20171016_POOL_POS_3_105-134.mzML` and
+  `20171016_POOL_POS_1_105-134.mzML`, now available in MsDataHub
+  1.13.2.
+
 # msdata 0.51.2
 
 - remove
