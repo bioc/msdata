@@ -1,9 +1,19 @@
 Package: msdata
 Version: 0.53.1
 Title: Various Mass Spectrometry raw data example files
-Author: Steffen Neumann <sneumann@ipb-halle.de>, Laurent Gatto
-        <laurent.gatto@uclouvain.be> with contriutions from Johannes Rainer
-Maintainer: Steffen Neumann <sneumann@ipb-halle.de>, Laurent Gatto <laurent.gatto@uclouvain.be>
+Authors@R: c(person(given = "Steffen",
+                    family = "Neumann"
+                    email = "sneumann@ipb-halle.de",
+                    role = "aut"),
+              person(given = "Laurent",
+                    family = "Gatto"
+                    email = "laurent.gatto@uclouvain.be",
+                    comment = c(ORCID = "0000-0002-1520-2268"),
+                    role = "cre"),
+              person(given = "Johannes",
+                    family = "Rainer"
+                    email = "Johannes.Rainer@eurac.edu",
+                    role = "ctb"))
 Depends: R (>= 2.10)
 Suggests: xcms, mzR, MSnbase
 ZipData: no
