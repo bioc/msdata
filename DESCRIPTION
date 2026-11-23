@@ -1,5 +1,5 @@
 Package: msdata
-Version: 0.53.1
+Version: 0.54.0
 Title: Various Mass Spectrometry raw data example files
 Authors@R: c(person(given = "Steffen",
                     family = "Neumann"
